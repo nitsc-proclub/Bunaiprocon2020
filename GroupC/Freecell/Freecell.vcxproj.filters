@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\example">
+      <UniqueIdentifier>{8b04c3b0-3b5b-4f9a-add9-f54abc0118ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine">
+      <UniqueIdentifier>{972ca6b5-b566-47a1-b6e5-5cd538d7268c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\emoji">
+      <UniqueIdentifier>{c78472e3-c4e0-4506-9bf9-9472da31c6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\font">
+      <UniqueIdentifier>{ce7c63eb-41c4-4772-8a5e-d693e6bd0941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\shader">
+      <UniqueIdentifier>{e1d14020-7d02-42c7-8b66-f3b6ad353f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\texture">
+      <UniqueIdentifier>{aae3423c-3e89-49de-a0a9-fe3b2894757f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\font\fontawesome">
+      <UniqueIdentifier>{da508b0f-cfdf-4e4d-aeda-47be86a1bcb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\font\mplus">
+      <UniqueIdentifier>{2902a225-0400-46b0-b372-4af9b723a698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\font\noto">
+      <UniqueIdentifier>{35772d4b-7a5b-4b92-af70-a7fde678b554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\texture\box-shadow">
+      <UniqueIdentifier>{cb012b1d-99ec-4d07-9383-ca0c0dc07cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\objdetect">
+      <UniqueIdentifier>{84ef0b75-f6af-436f-999c-73dc7a6f5bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\soundfont">
+      <UniqueIdentifier>{15aded12-f7a3-43d1-8511-e4ad812b7816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\engine\objdetect\haarcascade">
+      <UniqueIdentifier>{e3d7a277-272a-4561-b375-8f74e98bcfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\nlp">
+      <UniqueIdentifier>{f79e2386-3308-4bd4-a299-cff6f0a3371d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\nlp\japanese">
+      <UniqueIdentifier>{29db51bf-7ada-4ec7-bd32-8340162a8797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\nlp\japanese\jumanpp">
+      <UniqueIdentifier>{f6fe2a89-c647-48e2-bb2c-27b03b1aeced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\font">
+      <UniqueIdentifier>{e011e289-148f-4f61-b178-75bd63133a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\font\AnnyantRoman">
+      <UniqueIdentifier>{54d1e03d-1d02-4bca-a045-a73de6bc8102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\font\NotoSansCJKjp">
+      <UniqueIdentifier>{ec80af61-28a4-433a-aa04-102d099f524d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\font\Pecita">
+      <UniqueIdentifier>{59c8b538-0125-4cbe-8ad8-2d327d00f708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\script">
+      <UniqueIdentifier>{6d671c66-2133-4626-a10a-1a199c017c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\svm">
+      <UniqueIdentifier>{efc7c679-c387-43b2-93ed-b6e6ccbcd1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\shader">
+      <UniqueIdentifier>{2bcb9a5f-7580-4d6a-bd0b-1f8e16a14f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\shader\2d">
+      <UniqueIdentifier>{0b9673e5-5c13-4129-84ac-1a71a27b3f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\config">
+      <UniqueIdentifier>{89c12675-1e86-4726-8c52-108fd67b62e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\gui">
+      <UniqueIdentifier>{243acd54-757e-498e-81c4-c8164a884026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example\font\LogoTypeGothic">
+      <UniqueIdentifier>{b3586a98-5569-49e1-b9d6-cd80cf76ce9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImGui">
+      <UniqueIdentifier>{dcedfbde-1073-4c44-a15b-3359881d4bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{36caef72-7d59-4131-b02e-46eec73a3cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{3a441c0b-68fa-4a05-bc89-bc763a1206d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{b4356a6a-7747-42bb-8528-7f3928567757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effect">
+      <UniqueIdentifier>{984364e2-0048-452c-8e40-01d02b8e8e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{d58fa604-e105-4569-b193-91be36010cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{68090e3a-a2b5-4ab6-8a56-3f4468a7c4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets">
+      <UniqueIdentifier>{cd931b37-bd67-4a65-8f0f-6cdb1ab4b82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effect">
+      <UniqueIdentifier>{ed91b0a4-b98a-41ce-b9c1-33de7ae20c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skill">
+      <UniqueIdentifier>{8cd7d41d-a61f-4cd1-9ba7-e3745271d513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skill">
+      <UniqueIdentifier>{7a65c721-ff55-4db9-b3f8-9870a2dbf6a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_s3d.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyConfigWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="LineFadeEffect.cpp">
+      <Filter>Source Files\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CutInTextEffect.cpp">
+      <Filter>Source Files\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkdownViewWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSkill.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="App\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="App\engine\texture\box-shadow\128.png">
+      <Filter>Resource Files\engine\texture\box-shadow</Filter>
+    </Image>
+    <Image Include="App\engine\texture\box-shadow\256.png">
+      <Filter>Resource Files\engine\texture\box-shadow</Filter>
+    </Image>
+    <Image Include="App\engine\texture\box-shadow\8.png">
+      <Filter>Resource Files\engine\texture\box-shadow</Filter>
+    </Image>
+    <Image Include="App\engine\texture\box-shadow\16.png">
+      <Filter>Resource Files\engine\texture\box-shadow</Filter>
+    </Image>
+    <Image Include="App\engine\texture\box-shadow\32.png">
+      <Filter>Resource Files\engine\texture\box-shadow</Filter>
+    </Image>
+    <Image Include="App\engine\texture\box-shadow\64.png">
+      <Filter>Resource Files\engine\texture\box-shadow</Filter>
+    </Image>
+    <Image Include="App\example\particle.png">
+      <Filter>Resource Files\example</Filter>
+    </Image>
+    <Image Include="App\example\siv3d-kun.png">
+      <Filter>Resource Files\example</Filter>
+    </Image>
+    <Image Include="App\example\windmill.png">
+      <Filter>Resource Files\example</Filter>
+    </Image>
+    <Image Include="App\example\bay.jpg">
+      <Filter>Resource Files\example</Filter>
+    </Image>
+    <Image Include="App\Assets\TNTImage.png">
+      <Filter>Resource Files\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="App\Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App\engine\emoji\noto7_dictionary.dat">
+      <Filter>Resource Files\engine\emoji</Filter>
+    </None>
+    <None Include="App\nlp\japanese\jumanpp\LICENSE">
+      <Filter>Resource Files\nlp\japanese\jumanpp</Filter>
+    </None>
+    <None Include="App\nlp\japanese\jumanpp\README.md">
+      <Filter>Resource Files\nlp\japanese\jumanpp</Filter>
+    </None>
+    <None Include="App\engine\font\fontawesome\fontawesome-brands.otf.zstdcmp">
+      <Filter>Resource Files\engine\font\fontawesome</Filter>
+    </None>
+    <None Include="App\engine\font\fontawesome\fontawesome-solid.otf.zstdcmp">
+      <Filter>Resource Files\engine\font\fontawesome</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-light.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-medium.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-regular.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-thin.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\LICENSE_E">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-black.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-bold.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\mplus\mplus-1p-heavy.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\mplus</Filter>
+    </None>
+    <None Include="App\engine\font\noto\NotoColorEmoji.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\noto</Filter>
+    </None>
+    <None Include="App\engine\font\noto\NotoEmoji-Regular.ttf.zstdcmp">
+      <Filter>Resource Files\engine\font\noto</Filter>
+    </None>
+    <None Include="App\engine\objdetect\haarcascade\eye_eyeglasses.xml.zstdcmp">
+      <Filter>Resource Files\engine\objdetect\haarcascade</Filter>
+    </None>
+    <None Include="App\engine\objdetect\haarcascade\face_anime.xml.zstdcmp">
+      <Filter>Resource Files\engine\objdetect\haarcascade</Filter>
+    </None>
+    <None Include="App\engine\objdetect\haarcascade\frontal_catface.xml.zstdcmp">
+      <Filter>Resource Files\engine\objdetect\haarcascade</Filter>
+    </None>
+    <None Include="App\engine\objdetect\haarcascade\frontal_face_alt2.xml.zstdcmp">
+      <Filter>Resource Files\engine\objdetect\haarcascade</Filter>
+    </None>
+    <None Include="App\engine\objdetect\haarcascade\eye.xml.zstdcmp">
+      <Filter>Resource Files\engine\objdetect\haarcascade</Filter>
+    </None>
+    <None Include="App\engine\soundfont\GMGSx.sf2.zstdcmp">
+      <Filter>Resource Files\engine\soundfont</Filter>
+    </None>
+    <None Include="App\example\font\NotoSansCJKjp\README">
+      <Filter>Resource Files\example\font\NotoSansCJKjp</Filter>
+    </None>
+    <None Include="App\example\font\Pecita\LICENSE">
+      <Filter>Resource Files\example\font\Pecita</Filter>
+    </None>
+    <None Include="App\example\svm\a1a_testing">
+      <Filter>Resource Files\example\svm</Filter>
+    </None>
+    <None Include="App\example\svm\a1a_training">
+      <Filter>Resource Files\example\svm</Filter>
+    </None>
+    <None Include="App\example\test.toml">
+      <Filter>Resource Files\example</Filter>
+    </None>
+    <None Include="App\engine\shader\gaussian_blur_9.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\round_dot.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\sdf.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\shape.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\sprite.vs">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\square_dot.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\texture.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\copy.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\fullscreen_triangle_draw.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\fullscreen_triangle_draw.vs">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\fullscreen_triangle_resolve.ps">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\engine\shader\fullscreen_triangle_resolve.vs">
+      <Filter>Resource Files\engine\shader</Filter>
+    </None>
+    <None Include="App\example\shader\2d\default_shape.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\default_texture.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\game_of_life.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\grayscale.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\multi_texture_blend.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\multi_texture_mask.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\poisson_disk.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\posterize.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\rgb_shift.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\rgb_to_bgr.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\shader\2d\swirl.hlsl">
+      <Filter>Resource Files\example\shader\2d</Filter>
+    </None>
+    <None Include="App\example\config\config.csv">
+      <Filter>Resource Files\example\config</Filter>
+    </None>
+    <None Include="App\example\config\config.ini">
+      <Filter>Resource Files\example\config</Filter>
+    </None>
+    <None Include="App\example\config\config.json">
+      <Filter>Resource Files\example\config</Filter>
+    </None>
+    <None Include="App\example\config\config.toml">
+      <Filter>Resource Files\example\config</Filter>
+    </None>
+    <None Include="App\example\gui\gui.toml">
+      <Filter>Resource Files\example\gui</Filter>
+    </None>
+    <None Include="App\example\font\LogoTypeGothic\LICENSE_E">
+      <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="App\engine\font\fontawesome\LICENSE.txt">
+      <Filter>Resource Files\engine\font\fontawesome</Filter>
+    </Text>
+    <Text Include="App\engine\font\noto\LICENSE_OFL.txt">
+      <Filter>Resource Files\engine\font\noto</Filter>
+    </Text>
+    <Text Include="App\example\font\AnnyantRoman\readme.txt">
+      <Filter>Resource Files\example\font\AnnyantRoman</Filter>
+    </Text>
+    <Text Include="App\example\font\NotoSansCJKjp\LICENSE_OFL.txt">
+      <Filter>Resource Files\example\font\NotoSansCJKjp</Filter>
+    </Text>
+    <Text Include="App\example\script\paint.txt">
+      <Filter>Resource Files\example\script</Filter>
+    </Text>
+    <Text Include="App\example\script\test.txt">
+      <Filter>Resource Files\example\script</Filter>
+    </Text>
+    <Text Include="App\example\LICENSE.txt">
+      <Filter>Resource Files\example</Filter>
+    </Text>
+    <Text Include="App\example\test.txt">
+      <Filter>Resource Files\example</Filter>
+    </Text>
+    <Text Include="App\example\font\LogoTypeGothic\ReadMe_windows.txt">
+      <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="App\example\font\AnnyantRoman\AnnyantRoman.ttf">
+      <Filter>Resource Files\example\font\AnnyantRoman</Filter>
+    </Font>
+    <Font Include="App\example\font\NotoSansCJKjp\NotoSansCJKjp-Regular.otf">
+      <Filter>Resource Files\example\font\NotoSansCJKjp</Filter>
+    </Font>
+    <Font Include="App\example\font\Pecita\Pecita.otf">
+      <Filter>Resource Files\example\font\Pecita</Filter>
+    </Font>
+    <Font Include="App\example\font\LogoTypeGothic\LogoTypeGothic.otf">
+      <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="App\example\shot.mp3">
+      <Filter>Resource Files\example</Filter>
+    </Media>
+    <Media Include="App\example\test.mp3">
+      <Filter>Resource Files\example</Filter>
+    </Media>
+    <Media Include="App\Assets\Club Game BGM - Idle 2.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+    <Media Include="App\Assets\Club Game BGM - Bad.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+    <Media Include="App\Assets\Club Game BGM - Good.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+    <Media Include="App\Assets\Club Game BGM - Idle 1.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+    <Media Include="App\Assets\Club Game BGM - Bad 2.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+    <Media Include="App\Assets\beep-reedy.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+    <Media Include="App\Assets\呼び出しベル.mp3">
+      <Filter>Resource Files\Assets</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="App\example\test.xml">
+      <Filter>Resource Files\example</Filter>
+    </Xml>
+    <Xml Include="App\example\config\config.xml">
+      <Filter>Resource Files\example\config</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_s3d.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DQLikeMessBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyConfigWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingStarEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CutInEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigScene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxFloatEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="LineBackEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="LineFadeEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CutInTextEffect.h">
+      <Filter>Header Files\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_markdown.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkdownViewWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSkill.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
